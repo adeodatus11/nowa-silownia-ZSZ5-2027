@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sala gimnastyki korekcyjnej, wyposażenie ZSZ5</title>
+    <meta
+      name="description"
+      content="Osobna strona katalogu wyposażenia sali gimnastyki korekcyjnej: sprzęt, ilości, ceny i linki."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body data-page="korekcyjna">
+    <header class="topbar">
+      <a class="brand" href="index.html#top" aria-label="Przejdź na stronę główną">
+        <span class="brand-mark">ZSZ5</span>
+        <span>Wyposażenie sportowe</span>
+      </a>
+      <nav aria-label="Główna nawigacja">
+        <a href="index.html#sprzet">Całość</a>
+        <a href="silownia.html">Siłownia</a>
+        <a class="active" href="sala-gimnastyki.html">Sala korekcyjna</a>
+        <a href="index.html#kosztorys">Kosztorys</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero compact-hero">
+        <div class="hero-copy">
+          <p class="kicker">Sala gimnastyki korekcyjnej, ok. 40 m²</p>
+          <h1>Sala gimnastyki korekcyjnej</h1>
+          <p class="lead">
+            Osobna lista sprzętu korekcyjnego z ilością, ceną roboczą, zdjęciem i linkiem do dostawcy.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#sprzet">Zobacz sprzęt</a>
+            <a class="button secondary" href="index.html">Cały katalog</a>
+          </div>
+        </div>
+        <figure class="hero-media">
+          <img src="assets/images/equipment/wall-bars.jpg" alt="Drabinki i sprzęt do sali korekcyjnej">
+        </figure>
+      </section>
+
+      <section class="summary" aria-label="Podsumowanie sali gimnastyki korekcyjnej">
+        <article>
+          <span>Powierzchnia</span>
+          <strong>ok. 40 m²</strong>
+        </article>
+        <article>
+          <span>Pozycji sprzętu</span>
+          <strong>16</strong>
+        </article>
+        <article>
+          <span>Koszt bazowy</span>
+          <strong>30 400 zł</strong>
+        </article>
+        <article>
+          <span>Z rezerwą 20%</span>
+          <strong>36 480 zł</strong>
+        </article>
+      </section>
+
+      <section id="sprzet" class="catalog">
+        <div class="section-head">
+          <h2>Sprzęt sali korekcyjnej</h2>
+          <p>
+            Ta podstrona pokazuje wyłącznie pozycje przypisane do sali gimnastyki korekcyjnej.
+          </p>
+        </div>
+
+        <div class="toolbar page-toolbar" aria-label="Wyszukiwarka katalogu sali korekcyjnej">
+          <label class="search">
+            <span>Szukaj w sali korekcyjnej</span>
+            <input id="searchInput" type="search" placeholder="np. BOSU, rollery, drabinki">
+          </label>
+          <div class="toolbar-actions">
+            <a class="button secondary" href="silownia.html">Siłownia</a>
+            <a class="button secondary" href="index.html#sprzet">Całość</a>
+          </div>
+        </div>
+
+        <div class="catalog-meta">
+          <span id="resultCount">0 pozycji</span>
+          <button class="plain-button" type="button" id="resetFilters">Wyczyść wyszukiwanie</button>
+        </div>
+
+        <div id="equipmentGrid" class="equipment-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="notes">
+        <h2>Uwagi dla sali korekcyjnej</h2>
+        <p>
+          Przy zakupie warto potwierdzić atesty, łatwość dezynfekcji, odporność materiałów oraz możliwość bezpiecznego
+          przechowywania drobnego sprzętu.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>ZSZ5</span>
+      <span>Sala korekcyjna, roboczy katalog wyposażenia</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
