@@ -55,6 +55,14 @@ Zdjęcia w katalogu `assets/images/gym-pro/` pochodzą z kart produktów Trainin
 - Maszyna do treningu łydek PROUD Champion, https://trainingshowroom.com/maszyny-silowe/2938-maszyna-do-lydek-proud-champion.html
 - Kettlebell żeliwny PRO, zestaw PROUD, https://trainingshowroom.com/hantle-i-kettlebells/3465-hantla-proud-kettlebell-zestaw.html
 - Podłoga gumowa Standard PROUD, https://trainingshowroom.com/podlogi/3427-podloga-gumowa-standard-proud.html
+- Worek treningowy Powerbag PROUD i stojak, https://trainingshowroom.com/pilki-i-worki/2609-worek-treningowy-powerbag-proud.html
+- Sztanga specjalistyczna do martwego ciągu Hex Bar PROUD, https://trainingshowroom.com/sztangi/2593-sztanga-specjalistyczna-do-martwego-ciagu-hex-bar.html
+- Skakanka treningowa Speed Rope 2.0 PROUD, https://trainingshowroom.com/sprzet-fitness/2544-skakanka-treningowa-proud-speed-rope-20.html
+- Pas kulturystyczny z łańcuchem PROUD, https://trainingshowroom.com/akcesoria/2545-pas-kulturystyczny-z-lancuchem-proud.html
+- Uchwyt obrotowy Land Mine PROUD EDGE, https://trainingshowroom.com/proud-edge/3552-uchwyt-obrotowy-land-mine-proud-edge.html
+- Karabińczyk do wyciągu, zestaw PROUD, https://trainingshowroom.com/maszyny-silowe/3398-karabinczyk-do-wyciagu-zestaw-proud.html?search_query=Karabinczyk
+- Uchwyt do wyciągu linowy PROUD, https://trainingshowroom.com/maszyny-silowe/2624-uchwyt-do-wyciagu-linowy-proud.html
+- Pojedynczy uchwyt do wyciągu obrotowy ogumowany PROUD, https://trainingshowroom.com/maszyny-silowe/2587-pojedynczy-uchwyt-do-wyciagu-obrotowy-ogumowany-proud.html
 
 ## Wyposażenie AV
 
