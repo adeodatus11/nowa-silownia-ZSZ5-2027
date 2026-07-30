@@ -44,3 +44,12 @@ Zdjęcia w katalogu `assets/images/gym-pro/` pochodzą z kart produktów Trainin
 - Poręcze do drabinki PROUD Champion Outlet, https://trainingshowroom.com/outlet/3584-porecze-do-drabinki-proud-champion-outlet.html
 - Drabinka gimnastyczna PROUD, https://trainingshowroom.com/sprzet-gimnastyczny/2272-drabinka-gimnastyczna-proud.html
 - Drążek do podciągania do drabinki PROUD Champion Outlet, https://trainingshowroom.com/outlet/3585-drazek-do-podciagania-do-drabinki-proud-champion-outlet.html
+- Stojak na obciążenia i gryfy olimpijskie PROUD, https://trainingshowroom.com/outlet/2373-stojak-na-obciazenia-i-gryfy-olimpijskie-proud.html
+- Modlitewnik PROUD Champion, https://trainingshowroom.com/champion/2970-modlitewnik-proud-champion.html
+- Gryf olimpijski treningowy łamany Curl Silver PROUD, https://trainingshowroom.com/sztangi/2596-gryf-olimpijski-treningowy-lamany-silver-proud.html
+- Obciążenie olimpijskie Fractional Competition PROUD, https://trainingshowroom.com/talerze/2335-zestaw-obciazen-olimpijskich-proud-competition-fractional-plate.html
+- Podkładki do przysiadów PROUD, https://trainingshowroom.com/gumy-i-rollery/3356-podkladki-do-przysiadow-proud.html
+- Wyciąg regulowany Dual Pulley PROUD Champion, https://trainingshowroom.com/maszyny-silowe/2906-wyciag-regulowany-dual-pulley-proud-champion.html
+- Maszyna do treningu łydek PROUD Champion, https://trainingshowroom.com/maszyny-silowe/2938-maszyna-do-lydek-proud-champion.html
+- Kettlebell żeliwny PRO, zestaw PROUD, https://trainingshowroom.com/hantle-i-kettlebells/3465-hantla-proud-kettlebell-zestaw.html
+- Podłoga gumowa Standard PROUD, https://trainingshowroom.com/podlogi/3427-podloga-gumowa-standard-proud.html
