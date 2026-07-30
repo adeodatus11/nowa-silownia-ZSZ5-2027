@@ -136,7 +136,8 @@ main {
 
 .hero > *,
 .toolbar > *,
-.budget-layout > * {
+.budget-layout > *,
+.cost-estimates > * {
   min-width: 0;
 }
 
@@ -148,6 +149,7 @@ main {
 
 h1,
 h2,
+h3,
 p {
   margin-top: 0;
 }
@@ -164,6 +166,13 @@ h2 {
   margin-bottom: 10px;
   font-size: clamp(1.7rem, 3vw, 2.6rem);
   line-height: 1.05;
+  letter-spacing: 0;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: clamp(1.25rem, 2vw, 1.65rem);
+  line-height: 1.12;
   letter-spacing: 0;
 }
 
@@ -260,6 +269,8 @@ h2 {
 .equipment-card,
 .notes,
 .kamil-pricing,
+.cost-card,
+.budget-comparison,
 .price-summary article,
 .pricing-table-wrap {
   border: 1px solid var(--line);
@@ -274,6 +285,8 @@ h2 {
 .summary span,
 .budget-total span,
 .budget-list span,
+.cost-label,
+.cost-rows span,
 .equipment-meta,
 .equipment-category,
 .source-note,
@@ -418,6 +431,86 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
+}
+
+.cost-estimates {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.cost-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 22px;
+}
+
+.cost-card.highlighted {
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--line));
+  box-shadow: var(--shadow);
+}
+
+.cost-card p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.cost-card .button {
+  margin-top: auto;
+}
+
+.cost-label {
+  color: var(--accent-strong);
+  font-weight: 800;
+}
+
+.cost-rows {
+  display: grid;
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--line);
+}
+
+.cost-rows div {
+  padding: 12px;
+  background: var(--surface-soft);
+}
+
+.cost-rows span {
+  display: block;
+}
+
+.cost-rows strong {
+  display: block;
+  margin-top: 3px;
+  font-size: 1.2rem;
+}
+
+.cost-total-row {
+  color: #ffffff;
+  background: var(--accent-strong) !important;
+}
+
+.cost-total-row span {
+  color: color-mix(in srgb, #ffffff 82%, var(--accent-soft));
+}
+
+.cost-note {
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  background: var(--accent-soft);
+}
+
+.budget-comparison {
+  padding: 22px;
+}
+
+.budget-comparison h3 {
+  margin-bottom: 14px;
 }
 
 .equipment-card {
@@ -652,7 +745,8 @@ h2 {
 @media (max-width: 920px) {
   .hero,
   .toolbar,
-  .budget-layout {
+  .budget-layout,
+  .cost-estimates {
     grid-template-columns: 1fr;
   }
 
