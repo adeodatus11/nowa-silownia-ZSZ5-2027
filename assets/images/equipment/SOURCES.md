@@ -50,6 +50,17 @@ Zdjęcia w katalogu `assets/images/gym-pro/` pochodzą z kart produktów Trainin
 - Obciążenie olimpijskie Fractional Competition PROUD, https://trainingshowroom.com/talerze/2335-zestaw-obciazen-olimpijskich-proud-competition-fractional-plate.html
 - Podkładki do przysiadów PROUD, https://trainingshowroom.com/gumy-i-rollery/3356-podkladki-do-przysiadow-proud.html
 - Wyciąg regulowany Dual Pulley PROUD Champion, https://trainingshowroom.com/maszyny-silowe/2906-wyciag-regulowany-dual-pulley-proud-champion.html
+- Maszyna Leverage Chest Press PROUD Champion, https://trainingshowroom.com/maszyny-silowe/2992-maszyna-leverage-chest-press-proud-champion.html
+- Ławka do wiosłowania PROUD Champion, https://trainingshowroom.com/lawki-treningowe/2946-lawka-do-wioslowania-proud-champion.html
 - Maszyna do treningu łydek PROUD Champion, https://trainingshowroom.com/maszyny-silowe/2938-maszyna-do-lydek-proud-champion.html
 - Kettlebell żeliwny PRO, zestaw PROUD, https://trainingshowroom.com/hantle-i-kettlebells/3465-hantla-proud-kettlebell-zestaw.html
 - Podłoga gumowa Standard PROUD, https://trainingshowroom.com/podlogi/3427-podloga-gumowa-standard-proud.html
+
+## Wyposażenie AV
+
+- Zestaw stereo Bluetooth Triangle AIO TWIN, https://avstore.pl/monitory-aktywne/triangle-aio-twin-aktywne-kolumny-podstawkowe-z-bluetooth-wi-fi.html
+- Zestaw mikrofonowy nagłowny Tonsil ZP 12, https://avstore.pl/naglosnienie-przenosne/zestaw-tonsil-zp-12-przenosny-bezprzewodowy-system-naglosnieniowy-pa-mikrofon-uhf-mikrofon-naglowny-statyw-m502-102.html
+- Uchwyty ścienne do głośników Gravity SP WMBS 30 B, https://www.ablosklep.com/gravity-sp-wmbs-30-b-wychylny-obrotowy-uchwyt-scienny-do-glosnikow-do-30-kg-czarny-p-3991.html
+- Kabel HDMI światłowodowy 20 m Claroc, https://www.x-kom.pl/p/1277224-kabel-hdmi-claroc-optyczny-hdmi-21-8k-120hz-20m.html
+- Kabel audio mini jack 3,5 mm - 2x RCA 10 m Lindy, https://sklep.rms.pl/lindy-35337-kabel-mini-jack-3-5mm-2x-rca-cromo-line-10m
+- Ekran projekcyjny ręczny Avtek Cinema 280, https://www.al.to/p/537648-ekran-projekcyjny-avtek-ekran-projekcyjny-cinema-280.html
