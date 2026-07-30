@@ -63,4 +63,4 @@ Zdjęcia w katalogu `assets/images/gym-pro/` pochodzą z kart produktów Trainin
 - Uchwyty ścienne do głośników Gravity SP WMBS 30 B, https://www.ablosklep.com/gravity-sp-wmbs-30-b-wychylny-obrotowy-uchwyt-scienny-do-glosnikow-do-30-kg-czarny-p-3991.html
 - Kabel HDMI światłowodowy 20 m Claroc, https://www.x-kom.pl/p/1277224-kabel-hdmi-claroc-optyczny-hdmi-21-8k-120hz-20m.html
 - Kabel audio mini jack 3,5 mm - 2x RCA 10 m Lindy, https://sklep.rms.pl/lindy-35337-kabel-mini-jack-3-5mm-2x-rca-cromo-line-10m
-- Ekran projekcyjny ręczny Avtek Cinema 280, https://www.al.to/p/537648-ekran-projekcyjny-avtek-ekran-projekcyjny-cinema-280.html
+- Ekran projekcyjny elektryczny Avtek Cinema Electric 300P, https://www.x-kom.pl/p/711610-ekran-projekcyjny-avtek-ekran-elektryczny-cinema-electric-300p.html
