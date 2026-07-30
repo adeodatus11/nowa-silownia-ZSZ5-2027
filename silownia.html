@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Siłownia, wyposażenie ZSZ5</title>
+    <title>Wyposażenie siłowni ZSZ5</title>
     <meta
       name="description"
-      content="Osobna strona katalogu wyposażenia siłowni szkolnej: sprzęt, ilości, ceny i linki do dostawców."
+      content="Osobna strona katalogu wyposażenia siłowni: sprzęt, ilości, ceny, prognoza +20% i linki do dostawców."
     >
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -19,9 +19,8 @@
       <nav aria-label="Główna nawigacja">
         <a href="index.html#sprzet">Całość</a>
         <a class="active" href="silownia.html">Siłownia</a>
-        <a href="#cennik-kamila">Kosztorys Kamila</a>
         <a href="sala-gimnastyki.html">Sala korekcyjna</a>
-        <a href="index.html#kosztorys">Kosztorysy</a>
+        <a href="index.html#kosztorys">Kosztorys</a>
       </nav>
     </header>
 
@@ -29,18 +28,17 @@
       <section class="hero compact-hero">
         <div class="hero-copy">
           <p class="kicker">Siłownia, ok. 40 m²</p>
-          <h1>Sprzęt do siłowni</h1>
+          <h1>Wyposażenie siłowni</h1>
           <p class="lead">
-            Osobna lista sprzętu siłowego z ilością, ceną roboczą, zdjęciem i linkiem do dostawcy.
+            Zestaw maszyn, wolnych ciężarów, cardio, drabinek, drobnego sprzętu oraz wyposażenia audio-wideo.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#sprzet">Zobacz sprzęt</a>
-            <a class="button secondary" href="#cennik-kamila">Kosztorys Kamila</a>
+            <a class="button primary" href="#kosztorys">Zobacz kosztorys</a>
             <a class="button secondary" href="index.html">Cały katalog</a>
           </div>
         </div>
         <figure class="hero-media">
-          <img src="assets/images/equipment/power-rack.jpg" alt="Power Rack do siłowni szkolnej">
+          <img src="assets/images/gym-pro/gym-half-rack-smith.jpg" alt="Half rack z suwnicą Smitha do siłowni">
         </figure>
       </section>
 
@@ -51,39 +49,60 @@
         </article>
         <article>
           <span>Pozycji sprzętu</span>
-          <strong>15</strong>
+          <strong>17</strong>
         </article>
         <article>
-          <span>Koszt bazowy</span>
-          <strong>45 900 zł</strong>
+          <span>Suma cen</span>
+          <strong>117 063,59 zł</strong>
         </article>
         <article>
-          <span>Z rezerwą 20%</span>
-          <strong>55 080 zł</strong>
+          <span>Prognoza +20%</span>
+          <strong>140 476,31 zł</strong>
         </article>
-        <article>
-          <span>Opcja Kamila bazowo</span>
-          <strong>96 695,53 zł</strong>
-        </article>
-        <article>
-          <span>Opcja Kamila +20%</span>
-          <strong>116 034,64 zł</strong>
-        </article>
+      </section>
+
+      <section id="kosztorys" class="budget">
+        <div class="section-head">
+          <h2>Kosztorys wyposażenia siłowni</h2>
+          <p>
+            Tabela pokazuje nazwę sprzętu, cenę sprzętu oraz prognozowaną cenę po doliczeniu 20% rezerwy.
+          </p>
+        </div>
+        <div class="estimate-head compact-estimate-head">
+          <div>
+            <span class="cost-label">Siłownia</span>
+            <h3>Sprzęt siłowy, cardio, drabinki i AV</h3>
+          </div>
+          <div id="gymEstimateTotals" class="estimate-totals"></div>
+        </div>
+        <div class="pricing-table-wrap">
+          <table class="pricing-table">
+            <thead>
+              <tr>
+                <th>Nazwa sprzętu</th>
+                <th>Ilość</th>
+                <th>Cena sprzętu</th>
+                <th>Prognozowana cena +20%</th>
+                <th>Strona</th>
+              </tr>
+            </thead>
+            <tbody id="gymEstimateTable"></tbody>
+          </table>
+        </div>
       </section>
 
       <section id="sprzet" class="catalog">
         <div class="section-head">
-          <h2>Kosztorys sprzętu do siłowni - wariant podstawowy</h2>
+          <h2>Karty sprzętu</h2>
           <p>
-            Wariant podstawowy wynosi 45 900 zł bazowo oraz 55 080 zł po doliczeniu rezerwy 20%.
-            Wyszukiwarka działa tylko w tej liście.
+            Ta podstrona pokazuje wyłącznie pozycje przypisane do siłowni. Wyszukiwarka działa tylko w tej liście.
           </p>
         </div>
 
         <div class="toolbar page-toolbar" aria-label="Wyszukiwarka katalogu siłowni">
           <label class="search">
             <span>Szukaj w siłowni</span>
-            <input id="searchInput" type="search" placeholder="np. ławka, gryf, hantle">
+            <input id="searchInput" type="search" placeholder="np. ławka, ergometr, projektor">
           </label>
           <div class="toolbar-actions">
             <a class="button secondary" href="sala-gimnastyki.html">Sala korekcyjna</a>
@@ -102,56 +121,8 @@
       <section class="notes">
         <h2>Uwagi dla siłowni</h2>
         <p>
-          Przy sprzęcie siłowym warto potwierdzić nośność, grubość profili, gwarancję, serwis oraz sposób montażu
-          w pomieszczeniu szkolnym.
-        </p>
-      </section>
-
-      <section id="cennik-kamila" class="kamil-pricing">
-        <div class="section-head">
-          <p class="kicker">Opcja siłowni od Kamila Wójcika</p>
-          <h2>Kosztorys sprzętu do siłowni wg Kamila Wójcika</h2>
-          <p>
-            Cały wariant bazuje na sprzęcie ze strony Training Showroom. To średnia półka cenowa o wyższej jakości.
-            Do kwot zebranych ze stron produktów doliczona jest rezerwa 20%.
-          </p>
-        </div>
-
-        <div class="price-summary" aria-label="Podsumowanie cennika Kamila">
-          <article>
-            <span>Wartość bazowa</span>
-            <strong id="kamilBaseTotal">0 zł</strong>
-          </article>
-          <article>
-            <span>Z rezerwą 20%</span>
-            <strong id="kamilReserveTotal">0 zł</strong>
-          </article>
-          <article>
-            <span>Gryf opcjonalny</span>
-            <strong id="kamilOptionalTotal">0 zł</strong>
-          </article>
-        </div>
-
-        <div class="pricing-table-wrap">
-          <table class="pricing-table">
-            <thead>
-              <tr>
-                <th>Sprzęt</th>
-                <th>Ilość</th>
-                <th>Cena bazowa</th>
-                <th>Cena +20%</th>
-                <th>Strona</th>
-              </tr>
-            </thead>
-            <tbody id="kamilTable"></tbody>
-          </table>
-        </div>
-
-        <div id="kamilGrid" class="equipment-grid kamil-grid" aria-live="polite"></div>
-
-        <p class="footnote">
-          Dodatkowy gryf olimpijski jest pokazany jako opcja niewliczona, ponieważ dwa zestawy talerzy Competition
-          zawierają gryf Weightlifting 20 kg. Ceny outletowe i promocyjne warto potwierdzić przed decyzją zakupową.
+          Przy sprzęcie siłowym warto potwierdzić nośność, grubość profili, gwarancję, serwis, dostępność outletową
+          oraz sposób montażu w pomieszczeniu szkolnym.
         </p>
       </section>
     </main>

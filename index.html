@@ -6,7 +6,7 @@
     <title>Wyposażenie siłowni i sali korekcyjnej ZSZ5</title>
     <meta
       name="description"
-      content="Szybki katalog wyposażenia siłowni oraz sali gimnastyki korekcyjnej dla szkoły ponadpodstawowej."
+      content="Katalog wyposażenia siłowni oraz sali gimnastyki korekcyjnej ZSZ5 z kosztorysem i prognozą +20%."
     >
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -20,7 +20,7 @@
         <a class="active" href="index.html#sprzet">Całość</a>
         <a href="silownia.html">Siłownia</a>
         <a href="sala-gimnastyki.html">Sala korekcyjna</a>
-        <a href="index.html#kosztorys">Kosztorysy</a>
+        <a href="index.html#kosztorys">Kosztorys</a>
       </nav>
     </header>
 
@@ -30,11 +30,11 @@
           <p class="kicker">Wersja robocza, lipiec 2026</p>
           <h1>Wyposażenie siłowni i sali korekcyjnej</h1>
           <p class="lead">
-            Karty sprzętu ze zdjęciem, ilością, ceną i szybkim przejściem do proponowanego dostawcy.
+            Dwie osobne listy sprzętu z ceną bieżącą i prognozowaną ceną po doliczeniu 20% rezerwy.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#sprzet">Przeglądaj sprzęt</a>
-            <a class="button secondary" href="#kosztorys">Zobacz 3 kosztorysy</a>
+            <a class="button primary" href="#kosztorys">Zobacz kosztorys</a>
+            <a class="button secondary" href="#sprzet">Przeglądaj sprzęt</a>
           </div>
         </div>
         <figure class="hero-media">
@@ -44,39 +44,99 @@
 
       <section class="summary" aria-label="Podsumowanie założeń">
         <article>
-          <span>Siłownia</span>
-          <strong>ok. 40 m²</strong>
+          <span>Wyposażenie siłowni</span>
+          <strong>17 pozycji</strong>
         </article>
         <article>
           <span>Sala korekcyjna</span>
-          <strong>ok. 40 m²</strong>
+          <strong>18 pozycji</strong>
         </article>
         <article>
-          <span>Wariant podstawowy bazowo</span>
-          <strong>76 300 zł</strong>
+          <span>Razem ceny</span>
+          <strong>157 029,59 zł</strong>
         </article>
         <article>
-          <span>Wariant podstawowy +20%</span>
-          <strong>91 560 zł</strong>
+          <span>Razem prognoza +20%</span>
+          <strong>188 435,51 zł</strong>
         </article>
       </section>
 
       <section class="page-links" aria-label="Osobne strony katalogu">
         <a class="page-card" href="silownia.html">
           <span>Osobna strona</span>
-          <strong>Siłownia</strong>
-          <p>Sprzęt siłowy, wolne ciężary, podłoga, lustra i timer treningowy.</p>
-        </a>
-        <a class="page-card" href="silownia.html#cennik-kamila">
-          <span>Osobny cennik</span>
-          <strong>Opcja Kamila Wójcika</strong>
-          <p>Wariant siłowni oparty na sprzęcie Training Showroom z doliczoną rezerwą 20%.</p>
+          <strong>Wyposażenie siłowni</strong>
+          <p>Maszyny siłowe, wolne ciężary, cardio, drabinki, drobny sprzęt, projektor i zestaw audio.</p>
         </a>
         <a class="page-card" href="sala-gimnastyki.html">
           <span>Osobna strona</span>
           <strong>Sala gimnastyki korekcyjnej</strong>
-          <p>Materace, drabinki, piłki, BOSU, rollery i drobny sprzęt korekcyjny.</p>
+          <p>Materace, maty, drabinki, piłki, BOSU, rollery, drobny sprzęt korekcyjny, projektor i audio.</p>
         </a>
+      </section>
+
+      <section id="kosztorys" class="budget">
+        <div class="section-head">
+          <h2>Kosztorys</h2>
+          <p>
+            Każda tabela pokazuje nazwę sprzętu, cenę bieżącą oraz prognozowaną cenę po doliczeniu 20% rezerwy.
+            Kwoty są orientacyjne i wymagają potwierdzenia przed zakupem.
+          </p>
+        </div>
+
+        <article class="estimate-section">
+          <div class="estimate-head">
+            <div>
+              <span class="cost-label">Część 1</span>
+              <h3>Wyposażenie siłowni</h3>
+              <p>Sprzęt oparty na ofercie Training Showroom, uzupełniony o projektor i mobilny zestaw audio.</p>
+            </div>
+            <div id="gymEstimateTotals" class="estimate-totals"></div>
+          </div>
+          <div class="pricing-table-wrap">
+            <table class="pricing-table">
+              <thead>
+                <tr>
+                  <th>Nazwa sprzętu</th>
+                  <th>Ilość</th>
+                  <th>Cena sprzętu</th>
+                  <th>Prognozowana cena +20%</th>
+                  <th>Strona</th>
+                </tr>
+              </thead>
+              <tbody id="gymEstimateTable"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="estimate-section">
+          <div class="estimate-head">
+            <div>
+              <span class="cost-label">Część 2</span>
+              <h3>Wyposażenie sali gimnastyki korekcyjnej</h3>
+              <p>Rozbudowana sala korekcyjna z większą liczbą drabinek, sprzętem do ćwiczeń i wyposażeniem AV.</p>
+            </div>
+            <div id="rehabEstimateTotals" class="estimate-totals"></div>
+          </div>
+          <div class="pricing-table-wrap">
+            <table class="pricing-table">
+              <thead>
+                <tr>
+                  <th>Nazwa sprzętu</th>
+                  <th>Ilość</th>
+                  <th>Cena sprzętu</th>
+                  <th>Prognozowana cena +20%</th>
+                  <th>Strona</th>
+                </tr>
+              </thead>
+              <tbody id="rehabEstimateTable"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <div class="budget-comparison" aria-label="Podsumowanie kosztorysu">
+          <h3>Razem</h3>
+          <div id="combinedEstimateTotals" class="budget-list"></div>
+        </div>
       </section>
 
       <section id="sprzet" class="catalog">
@@ -90,13 +150,12 @@
         <div class="toolbar" aria-label="Filtry katalogu">
           <label class="search">
             <span>Szukaj</span>
-            <input id="searchInput" type="search" placeholder="np. hantle, BOSU, drabinki">
+            <input id="searchInput" type="search" placeholder="np. hantle, projektor, drabinki">
           </label>
           <div class="filters" role="group" aria-label="Kategorie sprzętu">
             <button class="filter active" type="button" data-filter="all">Wszystko</button>
             <button class="filter" type="button" data-filter="silownia">Siłownia</button>
             <button class="filter" type="button" data-filter="korekcyjna">Sala korekcyjna</button>
-            <button class="filter" type="button" data-filter="dodatkowe">Dodatkowe</button>
           </div>
         </div>
 
@@ -106,96 +165,6 @@
         </div>
 
         <div id="equipmentGrid" class="equipment-grid" aria-live="polite"></div>
-      </section>
-
-      <section id="kosztorys" class="budget">
-        <div class="section-head">
-          <h2>Trzy osobne kosztorysy</h2>
-          <p>
-            Rozdzielenie pozwala łatwo porównać wariant podstawowy siłowni, wariant siłowni wg Kamila Wójcika
-            oraz wyposażenie sali gimnastyki korekcyjnej.
-          </p>
-        </div>
-
-        <div class="cost-estimates">
-          <article class="cost-card">
-            <span class="cost-label">Kosztorys 1</span>
-            <h3>Sprzęt do siłowni - wariant podstawowy</h3>
-            <p>Aktualna propozycja bazowa: power rack, ławki, wolne ciężary, TRX, maty, lustra i wyposażenie pomocnicze.</p>
-            <div class="cost-rows">
-              <div>
-                <span>Kwota bazowa</span>
-                <strong>45 900 zł</strong>
-              </div>
-              <div>
-                <span>Rezerwa 20%</span>
-                <strong>9 180 zł</strong>
-              </div>
-              <div class="cost-total-row">
-                <span>Do zaplanowania</span>
-                <strong>55 080 zł</strong>
-              </div>
-            </div>
-            <a class="button secondary" href="silownia.html">Zobacz sprzęt siłowni</a>
-          </article>
-
-          <article class="cost-card highlighted">
-            <span class="cost-label">Kosztorys 2</span>
-            <h3>Sprzęt do siłowni wg Kamila Wójcika</h3>
-            <p>Wariant oparty na sprzęcie Training Showroom, z osobnymi maszynami, cardio, drabinką i akcesoriami.</p>
-            <div class="cost-rows">
-              <div>
-                <span>Kwota bazowa</span>
-                <strong>96 695,53 zł</strong>
-              </div>
-              <div>
-                <span>Rezerwa 20%</span>
-                <strong>19 339,11 zł</strong>
-              </div>
-              <div class="cost-total-row">
-                <span>Do zaplanowania</span>
-                <strong>116 034,64 zł</strong>
-              </div>
-            </div>
-            <p class="cost-note">Gryf olimpijski za 799,99 zł jest pokazany jako opcjonalny, bo zestawy obciążeń zawierają gryf.</p>
-            <a class="button primary" href="silownia.html#cennik-kamila">Zobacz kosztorys Kamila</a>
-          </article>
-
-          <article class="cost-card">
-            <span class="cost-label">Kosztorys 3</span>
-            <h3>Sprzęt do sali gimnastyki korekcyjnej</h3>
-            <p>Materace, maty, drabinki, piłki, BOSU, rollery, taśmy, kostki, stepy, lustro, szafa i materac zeskokowy.</p>
-            <div class="cost-rows">
-              <div>
-                <span>Kwota bazowa</span>
-                <strong>30 400 zł</strong>
-              </div>
-              <div>
-                <span>Rezerwa 20%</span>
-                <strong>6 080 zł</strong>
-              </div>
-              <div class="cost-total-row">
-                <span>Do zaplanowania</span>
-                <strong>36 480 zł</strong>
-              </div>
-            </div>
-            <a class="button secondary" href="sala-gimnastyki.html">Zobacz salę korekcyjną</a>
-          </article>
-        </div>
-
-        <div class="budget-comparison" aria-label="Porównanie wariantów całkowitych">
-          <h3>Porównanie całości</h3>
-          <div class="budget-list">
-            <div>
-              <span>Siłownia podstawowa + sala korekcyjna</span>
-              <strong>91 560 zł</strong>
-            </div>
-            <div>
-              <span>Siłownia wg Kamila + sala korekcyjna</span>
-              <strong>152 514,64 zł</strong>
-            </div>
-          </div>
-        </div>
       </section>
 
       <section id="uwagi" class="notes">

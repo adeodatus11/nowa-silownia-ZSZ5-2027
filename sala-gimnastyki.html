@@ -6,7 +6,7 @@
     <title>Sala gimnastyki korekcyjnej, wyposażenie ZSZ5</title>
     <meta
       name="description"
-      content="Osobna strona katalogu wyposażenia sali gimnastyki korekcyjnej: sprzęt, ilości, ceny i linki."
+      content="Osobna strona katalogu wyposażenia sali gimnastyki korekcyjnej: sprzęt, ilości, ceny, prognoza +20% i linki."
     >
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -20,7 +20,7 @@
         <a href="index.html#sprzet">Całość</a>
         <a href="silownia.html">Siłownia</a>
         <a class="active" href="sala-gimnastyki.html">Sala korekcyjna</a>
-        <a href="index.html#kosztorys">Kosztorysy</a>
+        <a href="index.html#kosztorys">Kosztorys</a>
       </nav>
     </header>
 
@@ -30,10 +30,10 @@
           <p class="kicker">Sala gimnastyki korekcyjnej, ok. 40 m²</p>
           <h1>Sala gimnastyki korekcyjnej</h1>
           <p class="lead">
-            Osobna lista sprzętu korekcyjnego z ilością, ceną roboczą, zdjęciem i linkiem do dostawcy.
+            Rozbudowana lista sprzętu korekcyjnego, drabinek, materacy, drobnych akcesoriów oraz wyposażenia AV.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#sprzet">Zobacz sprzęt</a>
+            <a class="button primary" href="#kosztorys">Zobacz kosztorys</a>
             <a class="button secondary" href="index.html">Cały katalog</a>
           </div>
         </div>
@@ -49,23 +49,52 @@
         </article>
         <article>
           <span>Pozycji sprzętu</span>
-          <strong>16</strong>
+          <strong>18</strong>
         </article>
         <article>
-          <span>Koszt bazowy</span>
-          <strong>30 400 zł</strong>
+          <span>Suma cen</span>
+          <strong>39 966 zł</strong>
         </article>
         <article>
-          <span>Z rezerwą 20%</span>
-          <strong>36 480 zł</strong>
+          <span>Prognoza +20%</span>
+          <strong>47 959,20 zł</strong>
         </article>
+      </section>
+
+      <section id="kosztorys" class="budget">
+        <div class="section-head">
+          <h2>Kosztorys wyposażenia sali gimnastyki korekcyjnej</h2>
+          <p>
+            Tabela pokazuje nazwę sprzętu, cenę sprzętu oraz prognozowaną cenę po doliczeniu 20% rezerwy.
+          </p>
+        </div>
+        <div class="estimate-head compact-estimate-head">
+          <div>
+            <span class="cost-label">Sala korekcyjna</span>
+            <h3>Drabinki, materace, sprzęt korekcyjny i AV</h3>
+          </div>
+          <div id="rehabEstimateTotals" class="estimate-totals"></div>
+        </div>
+        <div class="pricing-table-wrap">
+          <table class="pricing-table">
+            <thead>
+              <tr>
+                <th>Nazwa sprzętu</th>
+                <th>Ilość</th>
+                <th>Cena sprzętu</th>
+                <th>Prognozowana cena +20%</th>
+                <th>Strona</th>
+              </tr>
+            </thead>
+            <tbody id="rehabEstimateTable"></tbody>
+          </table>
+        </div>
       </section>
 
       <section id="sprzet" class="catalog">
         <div class="section-head">
-          <h2>Kosztorys sprzętu do sali gimnastyki korekcyjnej</h2>
+          <h2>Karty sprzętu</h2>
           <p>
-            Wariant sali korekcyjnej wynosi 30 400 zł bazowo oraz 36 480 zł po doliczeniu rezerwy 20%.
             Ta podstrona pokazuje wyłącznie pozycje przypisane do sali gimnastyki korekcyjnej.
           </p>
         </div>
@@ -73,7 +102,7 @@
         <div class="toolbar page-toolbar" aria-label="Wyszukiwarka katalogu sali korekcyjnej">
           <label class="search">
             <span>Szukaj w sali korekcyjnej</span>
-            <input id="searchInput" type="search" placeholder="np. BOSU, rollery, drabinki">
+            <input id="searchInput" type="search" placeholder="np. BOSU, rollery, projektor">
           </label>
           <div class="toolbar-actions">
             <a class="button secondary" href="silownia.html">Siłownia</a>

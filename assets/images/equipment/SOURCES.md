@@ -24,9 +24,9 @@ Miniatury są użyte do roboczego przeglądu wyglądu sprzętu. Nie wszystkie oz
 - Apteczka: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:First_aid_bag.jpg
 - Timer LED: obraz wygenerowany lokalnie po sprawdzeniu realnych przykładów timerów treningowych.
 
-## Opcja siłowni od Kamila Wójcika
+## Wyposażenie siłowni
 
-Zdjęcia w katalogu `assets/images/kamil/` pochodzą z kart produktów Training Showroom:
+Zdjęcia w katalogu `assets/images/gym-pro/` pochodzą z kart produktów Training Showroom:
 
 - Half rack z suwnicą Smitha PROUD EDGE, https://trainingshowroom.com/half-rack-z-suwnica-smitha/3452-test-half-rack-z-suwnica-smitha.html
 - Ławka regulowana L PROUD EDGE, https://trainingshowroom.com/proud-edge/3533-lawka-regulowana-l-proud-edge.html

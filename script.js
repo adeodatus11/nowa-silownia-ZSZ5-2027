@@ -2,159 +2,203 @@ const equipment = [
   {
     category: "silownia",
     section: "Siłownia",
-    name: "Power Rack",
+    group: "Konstrukcja główna",
+    name: "Half rack z suwnicą Smitha PROUD EDGE",
     quantity: "1",
-    price: "4 000 zł",
-    source: "Marbo Sport MS-U112 2.0 lub Kangoogym",
-    url: "https://www.marbo-sport.pl/product-pol-29631-Wielofunkcyjna-klatka-treningowa-Power-Rack-MS-U112-2-0-Marbo-Sport.html",
-    image: "assets/images/equipment/power-rack.jpg",
+    priceRaw: 12999,
+    source: "Training Showroom",
+    url: "https://trainingshowroom.com/half-rack-z-suwnica-smitha/3452-test-half-rack-z-suwnica-smitha.html",
+    image: "assets/images/gym-pro/gym-half-rack-smith.jpg",
   },
   {
     category: "silownia",
     section: "Siłownia",
-    name: "Ławka regulowana",
-    quantity: "2",
-    price: "1 300 zł",
-    source: "Marbo Sport MS-L102 2.0",
-    url: "https://www.marbo-sport.pl/product-pol-29165-Dwustronnie-regulowana-lawka-treningowa-MS-L102-2-0-Marbo-Sport.html",
-    image: "assets/images/bench-marbo.jpg",
-  },
-  {
-    category: "silownia",
-    section: "Siłownia",
-    name: "Gryf olimpijski",
-    quantity: "2",
-    price: "900 zł",
-    source: "Marbo Sport",
-    url: "https://www.marbo-sport.pl/product-pol-28615-Gryf-olimpijski-220cm-700kg-Professional-UF700-UpForm.html",
-    image: "assets/images/equipment/barbell.jpg",
-  },
-  {
-    category: "silownia",
-    section: "Siłownia",
-    name: "Gryfy krótkie olimpijskie do hantli",
-    quantity: "8 szt. (4 pary)",
-    price: "1 900 zł",
-    source: "Marbo Sport / UpForm, gryf krótki 50 cm",
-    url: "https://www.marbo-sport.pl/product-pol-28851-Gryf-krotki-olimpijski-50-cm-UF-G50-OLI-CH-UpForm.html",
-    image: "assets/images/equipment/short-dumbbell-bar.jpg",
-  },
-  {
-    category: "silownia",
-    section: "Siłownia",
-    name: "Obciążenia olimpijskie ok. 180 kg",
-    quantity: "1 komplet",
-    price: "4 500 zł",
-    source: "Marbo Sport",
-    url: "https://www.marbo-sport.pl/product-pol-16003-Zestaw-obciazen-olimpijskich-85kg-Marbo-Sport.html",
-    image: "assets/images/equipment/plates.jpg",
-  },
-  {
-    category: "silownia",
-    section: "Siłownia",
-    name: "Hantle 2-20 kg + stojak",
-    quantity: "1 komplet",
-    price: "9 000 zł",
-    source: "HMS Premium lub Marbo Sport",
-    url: "https://hms-fitness.pl/oferta/gryfy-i-obciazenia/hantle-i-sztangielki/hantle",
-    image: "assets/images/equipment/dumbbells.jpg",
-  },
-  {
-    category: "silownia",
-    section: "Siłownia",
-    name: "Kettlebells 4-20 kg",
-    quantity: "komplet",
-    price: "2 500 zł",
-    source: "HMS Premium",
-    url: "https://hms-fitness.pl/produkt/kzg-kettlebell-zeliwny-hms",
-    image: "assets/images/equipment/kettlebell.jpg",
-  },
-  {
-    category: "silownia",
-    section: "Siłownia",
-    name: "TRX GO",
-    quantity: "2",
-    price: "1 100 zł",
-    source: "TRX Training",
-    url: "https://www.trxtraining.com",
-    image: "assets/images/equipment/trx.png",
-  },
-  {
-    category: "silownia",
-    section: "Siłownia",
-    name: "Piłki lekarskie",
-    quantity: "8",
-    price: "1 200 zł",
-    source: "HMS, piłki lekarskie",
-    url: "https://hms-fitness.pl/produkt/nk-pilka-lekarska-hms",
-    image: "assets/images/equipment/medicine-ball.jpg",
-  },
-  {
-    category: "silownia",
-    section: "Siłownia",
-    name: "Gumy oporowe",
-    quantity: "komplet",
-    price: "700 zł",
-    source: "HMS Premium, zestaw gum",
-    url: "https://hms-fitness.pl/produkt/gu04-mix-set-pro-ii-zestaw-gum-do-cwiczen-hms-premium",
-    image: "assets/images/equipment/resistance-bands.jpg",
-  },
-  {
-    category: "silownia",
-    section: "Siłownia",
-    name: "Skakanki",
-    quantity: "10",
-    price: "300 zł",
-    source: "HMS, szybka skakanka",
-    url: "https://hms-fitness.pl/produkt/sk54-szybka-skakanka-hms",
-    image: "assets/images/equipment/jump-rope.jpg",
-  },
-  {
-    category: "silownia",
-    section: "Siłownia",
-    name: "Mata gumowa",
-    quantity: "ok. 30 m²",
-    price: "6 000 zł",
-    source: "Mata gumowa puzzle",
-    url: "https://elevatestore.pl/mata-na-silownie-fitness-puzzle-102x102-cm",
-    image: "assets/images/equipment/rubber-floor.jpg",
-  },
-  {
-    category: "silownia",
-    section: "Siłownia",
-    name: "Lustra",
-    quantity: "ok. 8 m²",
-    price: "3 000 zł",
-    source: "Lustra fitness",
-    url: "https://mojeszklo.pl/duze-lustro-na-sciane/",
-    image: "assets/images/equipment/mirror.jpg",
-  },
-  {
-    category: "silownia",
-    section: "Siłownia",
-    name: "Szafa / stojaki",
+    group: "Konstrukcja główna",
+    name: "Ławka regulowana L PROUD EDGE",
     quantity: "1",
-    price: "2 000 zł",
-    source: "Szafa sportowa na sprzęt",
-    url: "https://szafymetalowe.pl/pl/p/Szafa-sportowa-Sbm-212-na-sprzet-sportowy-1200-mm/522",
-    image: "assets/images/equipment/sports-cabinet.webp",
+    priceRaw: 2499,
+    source: "Training Showroom",
+    url: "https://trainingshowroom.com/proud-edge/3533-lawka-regulowana-l-proud-edge.html",
+    image: "assets/images/gym-pro/gym-bench.png",
   },
   {
     category: "silownia",
     section: "Siłownia",
-    name: "Timer treningowy LED",
+    group: "Konstrukcja główna",
+    name: "Stacja do dipów PROUD EDGE",
     quantity: "1",
-    price: "700 zł",
-    source: "Dostawca do wyboru",
-    url: "",
-    image: "assets/images/equipment/led-timer.png",
+    priceRaw: 799,
+    source: "Training Showroom",
+    url: "https://trainingshowroom.com/proud-edge/3497-stacja-do-dipow-proud-edge.html",
+    image: "assets/images/gym-pro/gym-dips.jpg",
+  },
+  {
+    category: "silownia",
+    section: "Siłownia",
+    group: "Wolne ciężary",
+    name: "Talerze Competition + gryf Weightlifting 20 kg PROUD",
+    quantity: "2 zestawy",
+    priceRaw: 11560,
+    unitNote: "5 780,00 zł za zestaw",
+    source: "Training Showroom",
+    url: "https://trainingshowroom.com/promocje/3537-promo-talerze-competition-gryf-weightlifting-20kg-proud.html",
+    image: "assets/images/gym-pro/gym-plates-bar.png",
+  },
+  {
+    category: "silownia",
+    section: "Siłownia",
+    group: "Wolne ciężary",
+    name: "Osłona na gryf PROUD Barbell Pad",
+    quantity: "1",
+    priceRaw: 62.61,
+    source: "Training Showroom",
+    url: "https://trainingshowroom.com/akcesoria/2488-ochraniacz-na-gryf-proud-barbell-pad.html",
+    image: "assets/images/gym-pro/gym-bar-pad.jpg",
+  },
+  {
+    category: "silownia",
+    section: "Siłownia",
+    group: "Maszyny siłowe",
+    name: "Wyciąg górny / dolny PROUD Champion Outlet",
+    quantity: "1",
+    priceRaw: 15081.31,
+    source: "Training Showroom",
+    url: "https://trainingshowroom.com/outlet/3506-wyciag-gorny-wyciag-dolny-proud-champion-outlet.html",
+    image: "assets/images/gym-pro/gym-lat-pulldown.jpg",
+  },
+  {
+    category: "silownia",
+    section: "Siłownia",
+    group: "Maszyny siłowe",
+    name: "Podwójny uchwyt do wyciągu, trójkąt PROUD",
+    quantity: "1",
+    priceRaw: 109.07,
+    source: "Training Showroom",
+    url: "https://trainingshowroom.com/maszyny-silowe/2581-podwojny-uchwyt-do-wyciagu-ogumowany-trojkat-proud.html",
+    image: "assets/images/gym-pro/gym-cable-handle.jpg",
+  },
+  {
+    category: "silownia",
+    section: "Siłownia",
+    group: "Maszyny na nogi",
+    name: "Maszyna do przysiadów Hack PROUD Champion",
+    quantity: "1",
+    priceRaw: 13269.37,
+    source: "Training Showroom",
+    url: "https://trainingshowroom.com/maszyny-silowe/2939-maszyna-do-przysiadow-proud-champion.html",
+    image: "assets/images/gym-pro/gym-hack-squat.jpg",
+  },
+  {
+    category: "silownia",
+    section: "Siłownia",
+    group: "Maszyny na nogi",
+    name: "Seated Leg Extension Plate Loaded PROUD Champion",
+    quantity: "1",
+    priceRaw: 11108.99,
+    source: "Training Showroom",
+    url: "https://trainingshowroom.com/maszyny-na-wolny-ciezar/3404-maszyna-seated-leg-extension-plate-loaded-proud-champion.html",
+    image: "assets/images/gym-pro/gym-leg-extension.png",
+  },
+  {
+    category: "silownia",
+    section: "Siłownia",
+    group: "Hantle",
+    name: "Hantle poliuretanowe Studio PROUD, zestaw 1-10 kg",
+    quantity: "2 zestawy",
+    priceRaw: 8241.58,
+    unitNote: "4 120,79 zł za zestaw",
+    source: "Training Showroom",
+    url: "https://trainingshowroom.com/hantle-i-kettlebells/3467-hantle-poliuretanowe-studio-zestaw-proud.html",
+    image: "assets/images/gym-pro/gym-dumbbells.png",
+  },
+  {
+    category: "silownia",
+    section: "Siłownia",
+    group: "Cardio",
+    name: "Ergometr wioślarski AIR 2.0 PROUD",
+    quantity: "2",
+    priceRaw: 10720.12,
+    unitNote: "5 360,06 zł za szt.",
+    source: "Training Showroom",
+    url: "https://trainingshowroom.com/ergometry/2782-ergometr-wioslarski-air-proud-20.html?hsCtaAttrib=186811937891",
+    image: "assets/images/gym-pro/gym-rower.jpg",
+  },
+  {
+    category: "silownia",
+    section: "Siłownia",
+    group: "Cardio",
+    name: "Air Runner, bieżnia treningowa 2.0 Elite PROUD Outlet",
+    quantity: "1",
+    priceRaw: 16905.12,
+    source: "Training Showroom",
+    url: "https://trainingshowroom.com/bieznie/3501-air-runner-bieznia-treningowa-20-elite-proud-outlet.html",
+    image: "assets/images/gym-pro/gym-air-runner.jpg",
+  },
+  {
+    category: "silownia",
+    section: "Siłownia",
+    group: "Drabinki i drobny sprzęt",
+    name: "Poręcze do drabinki PROUD Champion Outlet",
+    quantity: "2",
+    priceRaw: 2451.86,
+    unitNote: "1 225,93 zł za szt.",
+    source: "Training Showroom",
+    url: "https://trainingshowroom.com/outlet/3584-porecze-do-drabinki-proud-champion-outlet.html",
+    image: "assets/images/gym-pro/gym-wall-bars-dips.jpg",
+  },
+  {
+    category: "silownia",
+    section: "Siłownia",
+    group: "Drabinki i drobny sprzęt",
+    name: "Drabinka gimnastyczna PROUD",
+    quantity: "2",
+    priceRaw: 1939.18,
+    unitNote: "969,59 zł za szt.",
+    source: "Training Showroom",
+    url: "https://trainingshowroom.com/sprzet-gimnastyczny/2272-drabinka-gimnastyczna-proud.html",
+    image: "assets/images/gym-pro/gym-wall-bars.jpg",
+  },
+  {
+    category: "silownia",
+    section: "Siłownia",
+    group: "Drabinki i drobny sprzęt",
+    name: "Drążek do podciągania do drabinki PROUD Champion Outlet",
+    quantity: "2",
+    priceRaw: 1251.38,
+    unitNote: "625,69 zł za szt.",
+    source: "Training Showroom",
+    url: "https://trainingshowroom.com/outlet/3585-drazek-do-podciagania-do-drabinki-proud-champion-outlet.html",
+    image: "assets/images/gym-pro/gym-pullup-bar.jpg",
+  },
+  {
+    category: "silownia",
+    section: "Siłownia",
+    group: "Wyposażenie AV",
+    name: "Projektor Full HD Epson EB-FH52",
+    quantity: "1",
+    priceRaw: 4559,
+    source: "x-kom, cena orientacyjna",
+    url: "https://www.x-kom.pl/p/1224184-projektor-epson-eb-fh52.html",
+    image: "assets/images/equipment/projector-epson-eb-fh52.jpg",
+  },
+  {
+    category: "silownia",
+    section: "Siłownia",
+    group: "Wyposażenie AV",
+    name: "Mobilny zestaw audio LD Systems Roadbuddy 10 HHD 2",
+    quantity: "1",
+    priceRaw: 3507,
+    source: "Ceneo, cena orientacyjna",
+    url: "https://www.ceneo.pl/89383056",
+    image: "assets/images/equipment/audio-roadbuddy.jpg",
   },
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Maty i materace",
     name: "Materace",
     quantity: "16",
-    price: "3 200 zł",
+    priceRaw: 3200,
     source: "SportPlus",
     url: "https://sportplus.pl",
     image: "assets/images/equipment/exercise-mat.jpg",
@@ -162,9 +206,10 @@ const equipment = [
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Maty i materace",
     name: "Maty fitness / do ćwiczeń na podłodze",
     quantity: "20",
-    price: "1 600 zł",
+    priceRaw: 1600,
     source: "HMS Premium",
     url: "https://hms-fitness.pl/produkt/mfk03-mata-fitness-klubowa-z-otworami-hms-premium",
     image: "assets/images/equipment/exercise-mat.jpg",
@@ -172,9 +217,10 @@ const equipment = [
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Drabinki",
     name: "Drabinki gimnastyczne",
-    quantity: "2",
-    price: "4 500 zł",
+    quantity: "4",
+    priceRaw: 9000,
     source: "BenchK",
     url: "https://benchk.com",
     image: "assets/images/equipment/wall-bars.jpg",
@@ -182,9 +228,10 @@ const equipment = [
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Piłki i równowaga",
     name: "Piłki rehabilitacyjne",
     quantity: "12",
-    price: "900 zł",
+    priceRaw: 900,
     source: "HMS",
     url: "https://hms-fitness.pl/produkt/yb01-new-65cm-pilka-gimnastyczna-hms",
     image: "assets/images/equipment/therapy-ball.jpg",
@@ -192,9 +239,10 @@ const equipment = [
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Piłki i równowaga",
     name: "BOSU",
     quantity: "4",
-    price: "3 200 zł",
+    priceRaw: 3200,
     source: "BOSU Balance Trainer",
     url: "https://www.bosu.com",
     image: "assets/images/equipment/bosu.jpg",
@@ -202,9 +250,10 @@ const equipment = [
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Rollery i sensoryka",
     name: "Rollery",
     quantity: "10",
-    price: "700 zł",
+    priceRaw: 700,
     source: "4FIZJO",
     url: "https://4fizjo.pl",
     image: "assets/images/equipment/roller.webp",
@@ -212,9 +261,10 @@ const equipment = [
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Rollery i sensoryka",
     name: "Wałki rehabilitacyjne",
     quantity: "8",
-    price: "800 zł",
+    priceRaw: 800,
     source: "Dostawca do wyboru",
     url: "",
     image: "assets/images/equipment/rehab-roller.webp",
@@ -222,9 +272,10 @@ const equipment = [
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Rollery i sensoryka",
     name: "Dyski sensoryczne",
     quantity: "10",
-    price: "700 zł",
+    priceRaw: 700,
     source: "Dostawca do wyboru",
     url: "",
     image: "assets/images/equipment/sensory-disc.webp",
@@ -232,9 +283,10 @@ const equipment = [
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Drobny sprzęt korekcyjny",
     name: "Taśmy TheraBand",
     quantity: "komplet",
-    price: "800 zł",
+    priceRaw: 800,
     source: "TheraBand",
     url: "https://www.theraband.com",
     image: "assets/images/equipment/theraband.png",
@@ -242,9 +294,10 @@ const equipment = [
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Drobny sprzęt korekcyjny",
     name: "Laski gimnastyczne",
     quantity: "15",
-    price: "500 zł",
+    priceRaw: 500,
     source: "Dostawca do wyboru",
     url: "",
     image: "assets/images/equipment/gym-stick.webp",
@@ -252,9 +305,10 @@ const equipment = [
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Drobny sprzęt korekcyjny",
     name: "Kostki do jogi",
     quantity: "20",
-    price: "600 zł",
+    priceRaw: 600,
     source: "Dostawca do wyboru",
     url: "",
     image: "assets/images/equipment/yoga-block.jpg",
@@ -262,9 +316,10 @@ const equipment = [
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Drobny sprzęt korekcyjny",
     name: "Pasy do rozciągania",
     quantity: "15",
-    price: "600 zł",
+    priceRaw: 600,
     source: "Dostawca do wyboru",
     url: "",
     image: "assets/images/equipment/stretch-strap.png",
@@ -272,9 +327,10 @@ const equipment = [
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Drobny sprzęt korekcyjny",
     name: "Stepy",
     quantity: "10",
-    price: "1 000 zł",
+    priceRaw: 1000,
     source: "Dostawca do wyboru",
     url: "",
     image: "assets/images/equipment/step.jpg",
@@ -282,9 +338,10 @@ const equipment = [
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Wyposażenie sali",
     name: "Lustro",
     quantity: "6 m²",
-    price: "2 500 zł",
+    priceRaw: 2500,
     source: "Dostawca do wyboru",
     url: "",
     image: "assets/images/equipment/mirror.jpg",
@@ -292,9 +349,10 @@ const equipment = [
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Wyposażenie sali",
     name: "Szafa",
     quantity: "1",
-    price: "2 000 zł",
+    priceRaw: 2000,
     source: "Dostawca do wyboru",
     url: "",
     image: "assets/images/equipment/sports-cabinet.webp",
@@ -302,261 +360,35 @@ const equipment = [
   {
     category: "korekcyjna",
     section: "Sala korekcyjna",
+    group: "Wyposażenie sali",
     name: "Materac zeskokowy",
     quantity: "1",
-    price: "3 800 zł",
+    priceRaw: 3800,
     source: "Dostawca do wyboru",
     url: "",
     image: "assets/images/equipment/crash-mat.webp",
   },
   {
-    category: "dodatkowe",
-    section: "Dodatkowe",
-    name: "Stojak na maty",
+    category: "korekcyjna",
+    section: "Sala korekcyjna",
+    group: "Wyposażenie AV",
+    name: "Projektor Full HD Epson EB-FH52",
     quantity: "1",
-    price: "do wyceny",
-    source: "Dostawca do wyboru",
-    url: "",
-    image: "assets/images/equipment/mat-rack.jpg",
+    priceRaw: 4559,
+    source: "x-kom, cena orientacyjna",
+    url: "https://www.x-kom.pl/p/1224184-projektor-epson-eb-fh52.html",
+    image: "assets/images/equipment/projector-epson-eb-fh52.jpg",
   },
   {
-    category: "dodatkowe",
-    section: "Dodatkowe",
-    name: "Stojak na piłki",
+    category: "korekcyjna",
+    section: "Sala korekcyjna",
+    group: "Wyposażenie AV",
+    name: "Mobilny zestaw audio LD Systems Roadbuddy 10 HHD 2",
     quantity: "1",
-    price: "do wyceny",
-    source: "Dostawca do wyboru",
-    url: "",
-    image: "assets/images/equipment/ball-rack.jpg",
-  },
-  {
-    category: "dodatkowe",
-    section: "Dodatkowe",
-    name: "Stojak na hantle",
-    quantity: "1",
-    price: "do wyceny",
-    source: "Dostawca do wyboru",
-    url: "",
-    image: "assets/images/equipment/dumbbells.jpg",
-  },
-  {
-    category: "dodatkowe",
-    section: "Dodatkowe",
-    name: "Wieszak na TRX",
-    quantity: "1",
-    price: "do wyceny",
-    source: "Dostawca do wyboru",
-    url: "",
-    image: "assets/images/equipment/trx.png",
-  },
-  {
-    category: "dodatkowe",
-    section: "Dodatkowe",
-    name: "Tablica z instrukcją ćwiczeń",
-    quantity: "1",
-    price: "do wyceny",
-    source: "Dostawca do wyboru",
-    url: "",
-    image: "assets/images/equipment/exercise-mat.jpg",
-  },
-  {
-    category: "dodatkowe",
-    section: "Dodatkowe",
-    name: "Apteczka",
-    quantity: "1",
-    price: "do wyceny",
-    source: "Dostawca do wyboru",
-    url: "",
-    image: "assets/images/equipment/first-aid.jpg",
-  },
-  {
-    category: "dodatkowe",
-    section: "Dodatkowe",
-    name: "Gaśnica",
-    quantity: "1",
-    price: "do wyceny",
-    source: "Dostawca do wyboru",
-    url: "",
-    image: "assets/images/equipment/fire-extinguisher.jpg",
-  },
-  {
-    category: "dodatkowe",
-    section: "Dodatkowe",
-    name: "Zegar interwałowy LED",
-    quantity: "1",
-    price: "do wyceny",
-    source: "Dostawca do wyboru",
-    url: "",
-    image: "assets/images/equipment/led-timer.png",
-  },
-  {
-    category: "dodatkowe",
-    section: "Dodatkowe",
-    name: "Uchwyty do gum treningowych",
-    quantity: "zestaw",
-    price: "do wyceny",
-    source: "Dostawca do wyboru",
-    url: "",
-    image: "assets/images/equipment/resistance-bands.jpg",
-  },
-  {
-    category: "dodatkowe",
-    section: "Dodatkowe",
-    name: "Kosze na drobny sprzęt",
-    quantity: "zestaw",
-    price: "do wyceny",
-    source: "Dostawca do wyboru",
-    url: "",
-    image: "assets/images/equipment/ball-rack.jpg",
-  },
-];
-
-const kamilEquipment = [
-  {
-    group: "Maszyna wielofunkcyjna nr 1",
-    name: "Half rack z suwnicą Smitha PROUD EDGE",
-    quantity: "1",
-    priceRaw: 12999,
-    source: "Training Showroom",
-    url: "https://trainingshowroom.com/half-rack-z-suwnica-smitha/3452-test-half-rack-z-suwnica-smitha.html",
-    image: "assets/images/kamil/kamil-half-rack-smith.jpg",
-  },
-  {
-    group: "Maszyna wielofunkcyjna nr 1",
-    name: "Ławka regulowana L PROUD EDGE",
-    quantity: "1",
-    priceRaw: 2499,
-    source: "Training Showroom",
-    url: "https://trainingshowroom.com/proud-edge/3533-lawka-regulowana-l-proud-edge.html",
-    image: "assets/images/kamil/kamil-bench.png",
-  },
-  {
-    group: "Maszyna wielofunkcyjna nr 1",
-    name: "Stacja do dipów PROUD EDGE",
-    quantity: "1",
-    priceRaw: 799,
-    source: "Training Showroom",
-    url: "https://trainingshowroom.com/proud-edge/3497-stacja-do-dipow-proud-edge.html",
-    image: "assets/images/kamil/kamil-dips.jpg",
-  },
-  {
-    group: "Maszyna wielofunkcyjna nr 1",
-    name: "Talerze Competition + gryf Weightlifting 20 kg PROUD",
-    quantity: "2 zestawy",
-    priceRaw: 11560,
-    unitNote: "5 780,00 zł za zestaw",
-    source: "Training Showroom",
-    url: "https://trainingshowroom.com/promocje/3537-promo-talerze-competition-gryf-weightlifting-20kg-proud.html",
-    image: "assets/images/kamil/kamil-plates-bar.png",
-  },
-  {
-    group: "Maszyna wielofunkcyjna nr 1",
-    name: "Osłona na gryf PROUD Barbell Pad",
-    quantity: "1",
-    priceRaw: 62.61,
-    source: "Training Showroom",
-    url: "https://trainingshowroom.com/akcesoria/2488-ochraniacz-na-gryf-proud-barbell-pad.html",
-    image: "assets/images/kamil/kamil-bar-pad.jpg",
-  },
-  {
-    group: "Maszyna wielofunkcyjna nr 2",
-    name: "Wyciąg górny / dolny PROUD Champion Outlet",
-    quantity: "1",
-    priceRaw: 15081.31,
-    source: "Training Showroom",
-    url: "https://trainingshowroom.com/outlet/3506-wyciag-gorny-wyciag-dolny-proud-champion-outlet.html",
-    image: "assets/images/kamil/kamil-lat-pulldown.jpg",
-  },
-  {
-    group: "Maszyna wielofunkcyjna nr 2",
-    name: "Podwójny uchwyt do wyciągu, trójkąt PROUD",
-    quantity: "1",
-    priceRaw: 109.07,
-    source: "Training Showroom",
-    url: "https://trainingshowroom.com/maszyny-silowe/2581-podwojny-uchwyt-do-wyciagu-ogumowany-trojkat-proud.html",
-    image: "assets/images/kamil/kamil-cable-handle.jpg",
-  },
-  {
-    group: "Maszyna do treningu nóg",
-    name: "Maszyna do przysiadów Hack PROUD Champion",
-    quantity: "1",
-    priceRaw: 13269.37,
-    source: "Training Showroom",
-    url: "https://trainingshowroom.com/maszyny-silowe/2939-maszyna-do-przysiadow-proud-champion.html",
-    image: "assets/images/kamil/kamil-hack-squat.jpg",
-  },
-  {
-    group: "Maszyna nr 2 na nogi",
-    name: "Seated Leg Extension Plate Loaded PROUD Champion",
-    quantity: "1",
-    priceRaw: 11108.99,
-    source: "Training Showroom",
-    url: "https://trainingshowroom.com/maszyny-na-wolny-ciezar/3404-maszyna-seated-leg-extension-plate-loaded-proud-champion.html",
-    image: "assets/images/kamil/kamil-leg-extension.png",
-  },
-  {
-    group: "Hantle",
-    name: "Hantle poliuretanowe Studio PROUD, zestaw 1-10 kg",
-    quantity: "1 zestaw",
-    priceRaw: 4120.79,
-    source: "Training Showroom",
-    url: "https://trainingshowroom.com/hantle-i-kettlebells/3467-hantle-poliuretanowe-studio-zestaw-proud.html",
-    image: "assets/images/kamil/kamil-dumbbells.png",
-  },
-  {
-    group: "Cardio",
-    name: "Ergometr wioślarski AIR 2.0 PROUD",
-    quantity: "1",
-    priceRaw: 5360.06,
-    source: "Training Showroom",
-    url: "https://trainingshowroom.com/ergometry/2782-ergometr-wioslarski-air-proud-20.html?hsCtaAttrib=186811937891",
-    image: "assets/images/kamil/kamil-rower.jpg",
-  },
-  {
-    group: "Cardio",
-    name: "Air Runner, bieżnia treningowa 2.0 Elite PROUD Outlet",
-    quantity: "1",
-    priceRaw: 16905.12,
-    source: "Training Showroom",
-    url: "https://trainingshowroom.com/bieznie/3501-air-runner-bieznia-treningowa-20-elite-proud-outlet.html",
-    image: "assets/images/kamil/kamil-air-runner.jpg",
-  },
-  {
-    group: "Drabinka i akcesoria",
-    name: "Poręcze do drabinki PROUD Champion Outlet",
-    quantity: "1",
-    priceRaw: 1225.93,
-    source: "Training Showroom",
-    url: "https://trainingshowroom.com/outlet/3584-porecze-do-drabinki-proud-champion-outlet.html",
-    image: "assets/images/kamil/kamil-wall-bars-dips.jpg",
-  },
-  {
-    group: "Drabinka i akcesoria",
-    name: "Drabinka gimnastyczna PROUD",
-    quantity: "1",
-    priceRaw: 969.59,
-    source: "Training Showroom",
-    url: "https://trainingshowroom.com/sprzet-gimnastyczny/2272-drabinka-gimnastyczna-proud.html",
-    image: "assets/images/kamil/kamil-wall-bars.jpg",
-  },
-  {
-    group: "Drabinka i akcesoria",
-    name: "Drążek do podciągania do drabinki PROUD Champion Outlet",
-    quantity: "1",
-    priceRaw: 625.69,
-    source: "Training Showroom",
-    url: "https://trainingshowroom.com/outlet/3585-drazek-do-podciagania-do-drabinki-proud-champion-outlet.html",
-    image: "assets/images/kamil/kamil-pullup-bar.jpg",
-  },
-  {
-    group: "Opcjonalnie",
-    name: "Gryf olimpijski treningowy 20 kg PROUD",
-    quantity: "1",
-    priceRaw: 799.99,
-    optional: true,
-    source: "Training Showroom, niewliczony przy wyborze zestawów z gryfem",
-    url: "https://trainingshowroom.com/sztangi/2787-gryf-olimpijski-treningowy-20kg-220cm-gym-silver-proud.html",
-    image: "assets/images/kamil/kamil-barbell.jpg",
+    priceRaw: 3507,
+    source: "Ceneo, cena orientacyjna",
+    url: "https://www.ceneo.pl/89383056",
+    image: "assets/images/equipment/audio-roadbuddy.jpg",
   },
 ];
 
@@ -566,11 +398,15 @@ const resultCount = document.querySelector("#resultCount");
 const resetButton = document.querySelector("#resetFilters");
 const filterButtons = Array.from(document.querySelectorAll(".filter"));
 const pageCategory = document.body.dataset.page || "all";
-const kamilGrid = document.querySelector("#kamilGrid");
-const kamilTable = document.querySelector("#kamilTable");
-const kamilBaseTotal = document.querySelector("#kamilBaseTotal");
-const kamilReserveTotal = document.querySelector("#kamilReserveTotal");
-const kamilOptionalTotal = document.querySelector("#kamilOptionalTotal");
+const estimateTables = {
+  silownia: document.querySelector("#gymEstimateTable"),
+  korekcyjna: document.querySelector("#rehabEstimateTable"),
+};
+const estimateTotals = {
+  silownia: document.querySelector("#gymEstimateTotals"),
+  korekcyjna: document.querySelector("#rehabEstimateTotals"),
+  combined: document.querySelector("#combinedEstimateTotals"),
+};
 
 let activeFilter = pageCategory === "all" ? "all" : pageCategory;
 
@@ -588,12 +424,28 @@ function formatPln(value) {
   }) + " zł";
 }
 
+function getForecastPrice(item) {
+  return item.priceRaw * 1.2;
+}
+
+function getCategoryItems(category) {
+  return equipment.filter((item) => item.category === category);
+}
+
+function getCategoryTotals(category) {
+  const base = getCategoryItems(category).reduce((sum, item) => sum + item.priceRaw, 0);
+  return {
+    base,
+    forecast: base * 1.2,
+  };
+}
+
 function getFilteredEquipment() {
   const query = normalize(searchInput?.value.trim() || "");
   return equipment.filter((item) => {
     const matchesPage = pageCategory === "all" || item.category === pageCategory;
     const matchesFilter = pageCategory !== "all" || activeFilter === "all" || item.category === activeFilter;
-    const haystack = normalize(`${item.name} ${item.section} ${item.source}`);
+    const haystack = normalize(`${item.name} ${item.section} ${item.group} ${item.source}`);
     return matchesPage && matchesFilter && (!query || haystack.includes(query));
   });
 }
@@ -620,7 +472,7 @@ function renderEquipment() {
           <img src="${item.image}" alt="${item.name}">
           <div class="equipment-body">
             <div>
-              <div class="equipment-category">${item.section}</div>
+              <div class="equipment-category">${item.section} · ${item.group}</div>
               <h3 class="equipment-title">${item.name}</h3>
             </div>
             <div class="equipment-details">
@@ -630,10 +482,14 @@ function renderEquipment() {
               </div>
               <div>
                 <span>Cena</span>
-                <strong>${item.price}</strong>
+                <strong>${formatPln(item.priceRaw)}</strong>
+              </div>
+              <div>
+                <span>Prognoza +20%</span>
+                <strong>${formatPln(getForecastPrice(item))}</strong>
               </div>
             </div>
-            <div class="source-note">${item.source}</div>
+            <div class="source-note">${item.unitNote || item.source}</div>
             ${link}
           </div>
         </article>
@@ -642,73 +498,62 @@ function renderEquipment() {
     .join("");
 }
 
-function renderKamilOption() {
-  if (!kamilGrid && !kamilTable) return;
+function renderEstimateTable(category, table) {
+  if (!table) return;
 
-  const includedItems = kamilEquipment.filter((item) => !item.optional);
-  const baseTotal = includedItems.reduce((sum, item) => sum + item.priceRaw, 0);
-  const reserveTotal = baseTotal * 1.2;
-  const optionalTotal = kamilEquipment
-    .filter((item) => item.optional)
-    .reduce((sum, item) => sum + item.priceRaw, 0);
+  table.innerHTML = getCategoryItems(category)
+    .map((item) => {
+      const link = item.url
+        ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer">link</a>`
+        : '<span>do ustalenia</span>';
 
-  if (kamilBaseTotal) kamilBaseTotal.textContent = formatPln(baseTotal);
-  if (kamilReserveTotal) kamilReserveTotal.textContent = formatPln(reserveTotal);
-  if (kamilOptionalTotal) kamilOptionalTotal.textContent = formatPln(optionalTotal);
+      return `
+        <tr>
+          <td>${item.name}<span>${item.group}${item.unitNote ? `, ${item.unitNote}` : ""}</span></td>
+          <td>${item.quantity}</td>
+          <td>${formatPln(item.priceRaw)}</td>
+          <td>${formatPln(getForecastPrice(item))}</td>
+          <td>${link}</td>
+        </tr>
+      `;
+    })
+    .join("");
+}
 
-  if (kamilGrid) {
-    kamilGrid.innerHTML = kamilEquipment
-      .map((item) => {
-        const priceLabel = item.optional ? "Opcjonalnie" : "Cena +20%";
-        const reservePrice = item.optional ? item.priceRaw : item.priceRaw * 1.2;
-        const optionalBadge = item.optional ? '<span class="tag">niewliczone</span>' : "";
+function renderEstimateTotals() {
+  const gym = getCategoryTotals("silownia");
+  const rehab = getCategoryTotals("korekcyjna");
+  const combined = {
+    base: gym.base + rehab.base,
+    forecast: gym.forecast + rehab.forecast,
+  };
 
-        return `
-          <article class="equipment-card kamil-card">
-            <img src="${item.image}" alt="${item.name}">
-            <div class="equipment-body">
-              <div>
-                <div class="equipment-category">${item.group} ${optionalBadge}</div>
-                <h3 class="equipment-title">${item.name}</h3>
-              </div>
-              <div class="equipment-details">
-                <div>
-                  <span>Ilość</span>
-                  <strong>${item.quantity}</strong>
-                </div>
-                <div>
-                  <span>${priceLabel}</span>
-                  <strong>${formatPln(reservePrice)}</strong>
-                </div>
-              </div>
-              <div class="source-note">${item.unitNote || item.source}</div>
-              <a class="equipment-link" href="${item.url}" target="_blank" rel="noopener noreferrer">Otwórz stronę</a>
-            </div>
-          </article>
-        `;
-      })
-      .join("");
+  if (estimateTotals.silownia) {
+    estimateTotals.silownia.innerHTML = `
+      <div><span>Suma cen</span><strong>${formatPln(gym.base)}</strong></div>
+      <div><span>Prognoza +20%</span><strong>${formatPln(gym.forecast)}</strong></div>
+    `;
   }
 
-  if (kamilTable) {
-    kamilTable.innerHTML = kamilEquipment
-      .map((item) => {
-        const base = formatPln(item.priceRaw);
-        const reserve = item.optional ? "niewliczone" : formatPln(item.priceRaw * 1.2);
-        const note = item.optional ? "opcjonalnie" : item.unitNote || "";
-
-        return `
-          <tr>
-            <td>${item.name}<span>${item.group}${note ? `, ${note}` : ""}</span></td>
-            <td>${item.quantity}</td>
-            <td>${base}</td>
-            <td>${reserve}</td>
-            <td><a href="${item.url}" target="_blank" rel="noopener noreferrer">link</a></td>
-          </tr>
-        `;
-      })
-      .join("");
+  if (estimateTotals.korekcyjna) {
+    estimateTotals.korekcyjna.innerHTML = `
+      <div><span>Suma cen</span><strong>${formatPln(rehab.base)}</strong></div>
+      <div><span>Prognoza +20%</span><strong>${formatPln(rehab.forecast)}</strong></div>
+    `;
   }
+
+  if (estimateTotals.combined) {
+    estimateTotals.combined.innerHTML = `
+      <div><span>Razem ceny bazowe</span><strong>${formatPln(combined.base)}</strong></div>
+      <div><span>Razem prognoza +20%</span><strong>${formatPln(combined.forecast)}</strong></div>
+    `;
+  }
+}
+
+function renderEstimates() {
+  renderEstimateTable("silownia", estimateTables.silownia);
+  renderEstimateTable("korekcyjna", estimateTables.korekcyjna);
+  renderEstimateTotals();
 }
 
 filterButtons.forEach((button) => {
@@ -729,4 +574,4 @@ resetButton?.addEventListener("click", () => {
 });
 
 renderEquipment();
-renderKamilOption();
+renderEstimates();

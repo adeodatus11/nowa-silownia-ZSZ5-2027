@@ -137,7 +137,8 @@ main {
 .hero > *,
 .toolbar > *,
 .budget-layout > *,
-.cost-estimates > * {
+.cost-estimates > *,
+.estimate-head > * {
   min-width: 0;
 }
 
@@ -268,9 +269,10 @@ h3 {
 .page-card,
 .equipment-card,
 .notes,
-.kamil-pricing,
+.legacy-pricing,
 .cost-card,
 .budget-comparison,
+.estimate-section,
 .price-summary article,
 .pricing-table-wrap {
   border: 1px solid var(--line);
@@ -287,6 +289,7 @@ h3 {
 .budget-list span,
 .cost-label,
 .cost-rows span,
+.estimate-totals span,
 .equipment-meta,
 .equipment-category,
 .source-note,
@@ -305,7 +308,7 @@ h3 {
 
 .page-links {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
   margin: -38px 0 72px;
 }
@@ -340,7 +343,7 @@ h3 {
 .catalog,
 .budget,
 .notes,
-.kamil-pricing {
+.legacy-pricing {
   margin-bottom: 76px;
 }
 
@@ -513,6 +516,53 @@ h3 {
   margin-bottom: 14px;
 }
 
+.estimate-section {
+  padding: clamp(18px, 3vw, 26px);
+  margin-bottom: 22px;
+}
+
+.estimate-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.55fr);
+  gap: 18px;
+  align-items: start;
+  margin-bottom: 18px;
+}
+
+.compact-estimate-head {
+  margin-bottom: 18px;
+}
+
+.estimate-head p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.estimate-totals {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--line);
+}
+
+.estimate-totals div {
+  padding: 14px;
+  background: var(--surface-soft);
+}
+
+.estimate-totals span {
+  display: block;
+}
+
+.estimate-totals strong {
+  display: block;
+  margin-top: 3px;
+  font-size: 1.2rem;
+}
+
 .equipment-card {
   overflow: hidden;
   display: grid;
@@ -541,7 +591,7 @@ h3 {
 
 .equipment-details {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
 }
 
@@ -582,7 +632,7 @@ h3 {
   background: var(--surface-soft);
 }
 
-.kamil-pricing {
+.legacy-pricing {
   padding: clamp(20px, 4vw, 34px);
 }
 
@@ -649,11 +699,11 @@ h3 {
   border-bottom: 0;
 }
 
-.kamil-grid {
+.legacy-grid {
   margin-top: 18px;
 }
 
-.kamil-card .equipment-category {
+.legacy-card .equipment-category {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -746,7 +796,8 @@ h3 {
   .hero,
   .toolbar,
   .budget-layout,
-  .cost-estimates {
+  .cost-estimates,
+  .estimate-head {
     grid-template-columns: 1fr;
   }
 
