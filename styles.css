@@ -313,6 +313,10 @@ h3 {
   margin: -38px 0 72px;
 }
 
+.home-page-links {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .page-card {
   display: grid;
   gap: 8px;
@@ -699,6 +703,80 @@ h3 {
   border-bottom: 0;
 }
 
+.room-jump {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.room-list {
+  display: grid;
+  gap: 22px;
+}
+
+.room-card {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.42fr) minmax(0, 1fr);
+  gap: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.room-media {
+  min-height: 100%;
+  background: #ffffff;
+  border-right: 1px solid var(--line);
+}
+
+.room-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 260px;
+  object-fit: contain;
+  padding: 14px;
+}
+
+.room-content {
+  min-width: 0;
+  padding: clamp(18px, 3vw, 26px);
+}
+
+.room-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.room-heading span {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.room-heading h3 {
+  margin-bottom: 0;
+}
+
+.room-heading strong {
+  white-space: nowrap;
+  color: var(--accent-strong);
+  font-size: 1.25rem;
+}
+
+.room-content p {
+  color: var(--muted);
+}
+
+.room-table-wrap {
+  overflow-x: auto;
+}
+
+.room-table {
+  min-width: 720px;
+}
+
 .legacy-grid {
   margin-top: 18px;
 }
@@ -797,7 +875,8 @@ h3 {
   .toolbar,
   .budget-layout,
   .cost-estimates,
-  .estimate-head {
+  .estimate-head,
+  .room-card {
     grid-template-columns: 1fr;
   }
 
@@ -811,9 +890,16 @@ h3 {
 
   .summary,
   .page-links,
+  .home-page-links,
+  .room-jump,
   .price-summary,
   .equipment-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .room-media {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
   }
 }
 
@@ -836,6 +922,8 @@ h3 {
 
   .summary,
   .page-links,
+  .home-page-links,
+  .room-jump,
   .price-summary,
   .equipment-grid,
   .budget-list {
