@@ -709,7 +709,7 @@ h3 {
 
 .room-list {
   display: grid;
-  gap: 22px;
+  gap: 18px;
 }
 
 .room-card {
@@ -743,7 +743,7 @@ h3 {
 
 .room-content {
   min-width: 0;
-  padding: clamp(18px, 3vw, 26px);
+  padding: clamp(16px, 2.6vw, 22px);
 }
 
 .room-heading {
@@ -778,22 +778,43 @@ h3 {
 }
 
 .room-table {
-  min-width: 860px;
+  min-width: 740px;
 }
 
-.furniture-table .thumb-cell {
-  width: 92px;
+.furniture-list-table th:nth-child(2),
+.furniture-list-table td:nth-child(2) {
+  width: 84px;
+  text-align: center;
+}
+
+.furniture-list-table th:nth-child(3),
+.furniture-list-table th:nth-child(4),
+.furniture-list-table td:nth-child(3),
+.furniture-list-table td:nth-child(4) {
+  width: 132px;
+  white-space: nowrap;
+}
+
+.furniture-list-table .thumb-cell {
+  width: 64px;
+  text-align: center;
 }
 
 .item-thumb {
   display: block;
-  width: 76px;
-  height: 76px;
+  width: 46px;
+  height: 46px;
+  margin: 0 auto;
   object-fit: contain;
-  padding: 6px;
+  padding: 4px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: #ffffff;
+}
+
+.compact-thumb {
+  width: 42px;
+  height: 42px;
 }
 
 .legacy-grid {
