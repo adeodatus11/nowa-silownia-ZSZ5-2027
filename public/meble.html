@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wyposażenie meblowe i pozostałe ZSZ5</title>
+    <meta
+      name="description"
+      content="Podstrona wyposażenia meblowego i pozostałego: gabinety, szatnie, pomieszczenie socjalne, magazyny, ceny i kosztorys z rezerwą."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body data-page="meble">
+    <header class="topbar">
+      <a class="brand" href="index.html#top" aria-label="Przejdź na stronę główną">
+        <span class="brand-mark">ZSZ5</span>
+        <span>Wyposażenie sportowe</span>
+      </a>
+      <nav aria-label="Główna nawigacja">
+        <a href="index.html#sprzet">Całość</a>
+        <a href="silownia.html">Siłownia</a>
+        <a href="sala-gimnastyki.html">Sala korekcyjna</a>
+        <a class="active" href="meble.html">Meble i pozostałe</a>
+        <a href="#kosztorys-meble">Kosztorys</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero compact-hero">
+        <div class="hero-copy">
+          <p class="kicker">Wyposażenie meblowe i pozostałe</p>
+          <h1>Meble, gabinety i zaplecze</h1>
+          <p class="lead">
+            Podział na pomieszczenia, rzut poglądowy, lista wyposażenia, ceny robocze oraz osobny kosztorys
+            z rezerwą 20%.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#pomieszczenia">Zobacz pomieszczenia</a>
+            <a class="button secondary" href="#kosztorys-meble">Kosztorys +20%</a>
+            <a class="button secondary" href="silownia.html">Siłownia</a>
+          </div>
+        </div>
+        <figure class="hero-media">
+          <img src="assets/images/furniture-plans/06_gabinet_psychologa.png" alt="Schemat gabinetu psychologa z meblami">
+        </figure>
+      </section>
+
+      <section class="summary" aria-label="Podsumowanie wyposażenia meblowego">
+        <article>
+          <span>Pomieszczeń</span>
+          <strong id="furnitureRoomCount">0</strong>
+        </article>
+        <article>
+          <span>Pozycji kosztorysowych</span>
+          <strong id="furnitureItemCount">0</strong>
+        </article>
+        <article>
+          <span>Szatnie łącznie</span>
+          <strong>24 skrytki</strong>
+        </article>
+        <article>
+          <span>Drukarki</span>
+          <strong>4 x Epson WF-7840DTWF</strong>
+        </article>
+      </section>
+
+      <section class="page-links room-jump" aria-label="Szybkie przejście do pomieszczeń">
+        <a class="page-card" href="#pielegniarka">
+          <span>Gabinet</span>
+          <strong>Pielęgniarka</strong>
+          <p>Kozetka, parawan, szafa medyczna, biurko elektryczne i Epson A3.</p>
+        </a>
+        <a class="page-card" href="#psycholog">
+          <span>Gabinet</span>
+          <strong>Psycholog</strong>
+          <p>Dwa fotele STRANDMON, biurko, szafy aktowe i urządzenie wielofunkcyjne.</p>
+        </a>
+        <a class="page-card" href="#pedagog">
+          <span>Gabinet</span>
+          <strong>Pedagog</strong>
+          <p>Dwa fotele STRANDMON, stół konsultacyjny i zwiększony zapas szaf aktowych.</p>
+        </a>
+        <a class="page-card" href="#socjalne">
+          <span>Zaplecze</span>
+          <strong>Socjalne</strong>
+          <p>Stół dla 6-8 osób, 8 krzeseł, krzesło biurowe, kuchnia i lodówka.</p>
+        </a>
+      </section>
+
+      <section id="pomieszczenia" class="catalog furniture-catalog">
+        <div class="section-head">
+          <h2>Podział na pomieszczenia</h2>
+          <p>
+            Ceny są robocze, brutto i bez dostaw, montażu, wniesienia, konfiguracji drukarek oraz prac instalacyjnych.
+            Szatnie przyjęto jako łącznie 24 skrytki: po 12 skrytek w każdej szatni.
+          </p>
+        </div>
+
+        <div id="furnitureRooms" class="room-list" aria-live="polite"></div>
+      </section>
+
+      <section id="kosztorys-meble" class="budget">
+        <div class="section-head">
+          <h2>Kosztorys mebli i wyposażenia pozostałego</h2>
+          <p>
+            Osobny kosztorys dla gabinetów, szatni, pomieszczenia socjalnego, magazynu sali gimnastycznej,
+            gabinetu WF i strychu-magazynu.
+          </p>
+        </div>
+
+        <div class="price-summary" aria-label="Podsumowanie kosztorysu meblowego">
+          <article>
+            <span>Wartość bazowa</span>
+            <strong id="furnitureBaseTotal">0 zł</strong>
+          </article>
+          <article>
+            <span>Rezerwa 20%</span>
+            <strong id="furnitureReserveValue">0 zł</strong>
+          </article>
+          <article>
+            <span>Do zaplanowania</span>
+            <strong id="furnitureReserveTotal">0 zł</strong>
+          </article>
+        </div>
+
+        <div class="pricing-table-wrap">
+          <table class="pricing-table">
+            <thead>
+              <tr>
+                <th>Pomieszczenie</th>
+                <th>Pozycji</th>
+                <th>Kwota bazowa</th>
+                <th>Rezerwa 20%</th>
+                <th>Razem</th>
+              </tr>
+            </thead>
+            <tbody id="furnitureTable"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="notes">
+        <h2>Uwagi zakupowe</h2>
+        <p>
+          Przy zamówieniu trzeba potwierdzić dokładne wymiary pomieszczeń, światło drzwi, skosy poddasza,
+          dostęp do gniazd i sieci dla urządzeń Epson oraz wymagania dotyczące przechowywania dokumentacji.
+        </p>
+        <p>
+          Dla szaf aktowych i medycznych rekomendowane są modele metalowe zamykane. Dla krzeseł przy biurkach
+          przyjęto standard ergonomiczny z podparciem lędźwiowym i zagłówkiem.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>ZSZ5</span>
+      <span>Wyposażenie meblowe i pozostałe, roboczy kosztorys</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
